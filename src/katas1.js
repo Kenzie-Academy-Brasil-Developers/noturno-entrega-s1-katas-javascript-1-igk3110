@@ -4,9 +4,11 @@ function oneThroughTwenty() {
    Write a for or a while loop
    return the result*/
 
-  for(let contador = 0; contador <= 19; contador++){
-    console.log(contador)
-  }return + contador 
+  let elemento = []
+
+  for(let contador = 0; contador <= 20; contador++){
+    elemento.push(contador)
+  }return elemento
 }
 // console.log(oneThroughTwenty())
 //call function oneThroughTwenty
@@ -16,10 +18,13 @@ function evensToTwenty() {
    /* Your code goes below
    Write a for or a while loop
    return the result */
+
+   elemento = []
+
   
-  for(let contador = 0; contador <= 19; contador = contador + 2){
-    console.log(contador)
-  }return + contador
+  for(let contador = 0; contador <= 20; contador = contador + 2){
+    elemento.push(contador)
+  }return elemento
 }
 // console.log(evensToTwenty())
 
@@ -31,9 +36,11 @@ function oddsToTwenty() {
   Write a for or a while loop
   return the result */
 
-  for(contador = 1; contador <= 17; contador = contador = contador + 2){
-    console.log(contador)
-  }return contador
+  elemento = []
+
+  for(contador = 1; contador <= 20; contador = contador = contador + 2){
+    elemento.push(contador)
+  }return elemento
    
 }
 // console.log(oddsToTwenty())
@@ -45,12 +52,14 @@ function multiplesOfFive() {
   Write a for or a while loop
   return the result */
 
+  elemento = []
+
 for(contador = 0; contador <= 100; contador++){
     if(contador % 5 === 0){
-       console.log (contador)
+       elemento.push(contador)
     }
 
-  }return contador - 1
+  }return elemento
 
 }
 // console.log(multiplesOfFive())
@@ -62,11 +71,13 @@ function squareNumbers() {
   Write a for or a while loop
   return the result */
 
+  elemento = []
+
   for(contador = 0; contador <= 10; contador++){
     
-    console.log(contador ** 2)
+    elemento.push(contador ** 2)
     
-  }
+  }return elemento
     
 }
 // console.log(squareNumbers())
@@ -77,9 +88,12 @@ function countingBackwards() {
   /* Your code goes below
   Write a for or a while loop
   return the result */
+
+  elemento = []
+
   for(let contador = 20; contador >= 0 ; contador--){
-    console.log(contador)
-  }
+    elemento.push(contador)
+  }return elemento
 }
 // console.log(countingBackwards())
 //call function countingBackwards
@@ -90,9 +104,11 @@ function evenNumbersBackwards() {
   Write a for or a while loop
   return the result */
 
+  elemento = []
+
   for(contador = 20; contador >= 0; contador = contador - 2){
-    console.log(contador)
-  }
+    elemento.push(contador)
+  }return elemento
 
 }
 // console.log(evenNumbersBackwards())
@@ -104,11 +120,11 @@ function oddNumbersBackwards() {
   Write a for or a while loop
   return the result */
 
-  for(contador = 19; contador >= 0; contador = contador - 2){
-    console.log(contador) 
-  }
+  elemento = []
 
-
+  for(contador = 20; contador >= 0; contador = contador - 2){
+    elemento.push(contador) 
+  }return elemento
 }
 // console.log(oddNumbersBackwards())
 //call function oddNumbersBackwards
@@ -119,11 +135,13 @@ function multiplesOfFiveBackwards() {
   Write a for or a while loop
   return the result */
 
+  elemento = []
+
   for(contador = 100; contador >= 0; contador--){
     if(contador % 5 === 0){
-      console.log(contador)
+      elemento.push(contador)
     }
-  }
+  }return elemento
 }
 // console.log(multiplesOfFiveBackwards())
 //call function multiplesOfFiveBackwards
@@ -134,11 +152,13 @@ function squareNumbersBackwards() {
   Write a for or a while loop
   return the result */
 
-  for(contador = 10; contador >= 0; contador--){
-    console.log(contador ** 2)
+  elemento = []
 
-  }
+  for(contador = 10; contador >= 0; contador--){
+    elemento.push(contador ** 2)
+
+  }return elemento
 
 }
-// console.log(squareNumbersBackwards())
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards())
+// call function squareNumbersBackwards
