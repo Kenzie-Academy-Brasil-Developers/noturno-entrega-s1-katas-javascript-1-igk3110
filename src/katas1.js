@@ -38,7 +38,7 @@ function oddsToTwenty() {
 
   elemento = []
 
-  for(contador = 1; contador <= 20; contador = contador = contador + 2){
+  for(let contador = 1; contador <= 20; contador = contador = contador + 2){
     elemento.push(contador)
   }return elemento
    
@@ -54,7 +54,7 @@ function multiplesOfFive() {
 
   elemento = []
 
-for(contador = 0; contador <= 100; contador++){
+for(let contador = 0; contador <= 100; contador++){
     if(contador % 5 === 0){
        elemento.push(contador)
     }
@@ -73,7 +73,7 @@ function squareNumbers() {
 
   elemento = []
 
-  for(contador = 0; contador <= 10; contador++){
+  for(let contador = 0; contador <= 10; contador++){
     
     elemento.push(contador ** 2)
     
@@ -106,7 +106,7 @@ function evenNumbersBackwards() {
 
   elemento = []
 
-  for(contador = 20; contador >= 0; contador = contador - 2){
+  for(let contador = 20; contador >= 0; contador = contador - 2){
     elemento.push(contador)
   }return elemento
 
@@ -122,7 +122,7 @@ function oddNumbersBackwards() {
 
   elemento = []
 
-  for(contador = 20; contador >= 0; contador = contador - 2){
+  for(let contador = 20; contador >= 0; contador = contador - 2){
     elemento.push(contador) 
   }return elemento
 }
@@ -137,7 +137,7 @@ function multiplesOfFiveBackwards() {
 
   elemento = []
 
-  for(contador = 100; contador >= 0; contador--){
+  for(let contador = 100; contador >= 0; contador--){
     if(contador % 5 === 0){
       elemento.push(contador)
     }
@@ -154,7 +154,7 @@ function squareNumbersBackwards() {
 
   elemento = []
 
-  for(contador = 10; contador >= 0; contador--){
+  for(let contador = 10; contador >= 0; contador--){
     elemento.push(contador ** 2)
 
   }return elemento
