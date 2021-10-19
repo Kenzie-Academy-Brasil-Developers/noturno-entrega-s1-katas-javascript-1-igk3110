@@ -19,7 +19,7 @@ function evensToTwenty() {
    Write a for or a while loop
    return the result */
 
-   elemento = []
+   let elemento = []
 
   
   for(let contador = 0; contador <= 20; contador = contador + 2){
@@ -36,7 +36,7 @@ function oddsToTwenty() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
   for(let contador = 1; contador <= 20; contador = contador = contador + 2){
     elemento.push(contador)
@@ -52,7 +52,7 @@ function multiplesOfFive() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
 for(let contador = 0; contador <= 100; contador++){
     if(contador % 5 === 0){
@@ -71,7 +71,7 @@ function squareNumbers() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
   for(let contador = 0; contador <= 10; contador++){
     
@@ -89,7 +89,7 @@ function countingBackwards() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
   for(let contador = 20; contador >= 0 ; contador--){
     elemento.push(contador)
@@ -104,7 +104,7 @@ function evenNumbersBackwards() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
   for(let contador = 20; contador >= 0; contador = contador - 2){
     elemento.push(contador)
@@ -120,7 +120,7 @@ function oddNumbersBackwards() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
   for(let contador = 20; contador >= 0; contador = contador - 2){
     elemento.push(contador) 
@@ -135,7 +135,7 @@ function multiplesOfFiveBackwards() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
   for(let contador = 100; contador >= 0; contador--){
     if(contador % 5 === 0){
@@ -152,7 +152,7 @@ function squareNumbersBackwards() {
   Write a for or a while loop
   return the result */
 
-  elemento = []
+  let elemento = []
 
   for(let contador = 10; contador >= 0; contador--){
     elemento.push(contador ** 2)
